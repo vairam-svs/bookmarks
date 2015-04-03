@@ -10,3 +10,5 @@ http://www.nuget.org/packages?q=SYstem.Math
             }
         }
     }
+
+http://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/7448644-include-nuget-package-name-in-which-a-namespace-c
