@@ -7,3 +7,8 @@ What is fileAlignment in C# project file
 
 MSBuild Targets Files like "Microsoft.Common.targets" File Location: 
 [C:\Windows = windows installation directory]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+MSBUILD: 
+http://blogs.msdn.com/b/visualstudio/archive/2013/07/24/msbuild-is-now-part-of-visual-studio.aspx
+
+Property Manager: http://www.dorodnic.com/blog/tag/msbuild/
