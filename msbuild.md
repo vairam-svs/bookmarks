@@ -12,3 +12,5 @@ MSBUILD:
 http://blogs.msdn.com/b/visualstudio/archive/2013/07/24/msbuild-is-now-part-of-visual-studio.aspx
 
 Property Manager: http://www.dorodnic.com/blog/tag/msbuild/
+
+TargetFrameworkVersion: Common MSBuild Properties: https://msdn.microsoft.com/en-us/library/bb629394.aspx
