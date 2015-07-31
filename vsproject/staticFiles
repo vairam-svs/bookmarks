@@ -1,0 +1,13 @@
+How to customize using MSBuild to convert all content to content type:
+http://weblogs.asp.net/leftslipper/creating-visual-studio-projects-that-only-contain-static-files
+
+  <Target Name="Build">
+        <Copy
+            SourceFiles="@(Content)"
+            DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    </Target>
+    <Target Name="Clean">
+        <Exec Command="rd /s /q $(OutputPath)" Condition="Exists($(OutputPath))" />
+    </Target>
+    <Target Name="Rebuild" DependsOnTargets="Clean;Build">
+    </Target>
