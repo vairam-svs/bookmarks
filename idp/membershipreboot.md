@@ -1,3 +1,5 @@
+https://github.com/IdentityServer/IdentityServer3.MembershipReboot
+
 Source: https://github.com/IdentityServer/IdentityServer3.MembershipReboot
 Nuget: http://www.nuget.org/packages/BrockAllen.MembershipReboot/
 http://brockallen.com/2013/07/29/announcing-membershipreboot/: 
