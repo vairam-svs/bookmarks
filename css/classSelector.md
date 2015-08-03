@@ -20,7 +20,7 @@ The following assigns style only to H1 elements with class~="pastoral":
 H1.pastoral { color: green }  /* H1 elements with class~=pastoral */
 
 Given these rules, the first H1 instance below would not have green text, while the second would:
-<style>
+<style type="text/css">
 .pastoral { color: green }  /* all elements with class~=pastoral */
 H1.pastoral { color: green }  /* H1 elements with class~=pastoral */
 p.pastoral.marine { color: green }
