@@ -1,3 +1,4 @@
+http://www.w3.org/wiki/CSS/Selectors
 http://www.w3.org/wiki/CSS/Selectors/class_selector
 CSS defines the class selector in 6.4. Class selectors: 
 http://www.w3.org/TR/css3-selectors/#class-html
