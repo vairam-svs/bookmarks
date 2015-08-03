@@ -20,6 +20,11 @@ The following assigns style only to H1 elements with class~="pastoral":
 H1.pastoral { color: green }  /* H1 elements with class~=pastoral */
 
 Given these rules, the first H1 instance below would not have green text, while the second would:
+<style>
+.pastoral { color: green }  /* all elements with class~=pastoral */
+H1.pastoral { color: green }  /* H1 elements with class~=pastoral */
+p.pastoral.marine { color: green }
+</style>
 
 <H1>Not green</H1>
 <H1 class="pastoral">Very green</H1>
@@ -28,4 +33,4 @@ The following rule matches any P element whose class attribute has been assigned
 
 p.pastoral.marine { color: green }
 
-This rule matches when class="pastoral blue aqua marine" but does not match for class="pastoral blue".
+<p class="pastoral marine">This rule matches when class="pastoral blue aqua marine" but does not match for class="pastoral blue".</p>
