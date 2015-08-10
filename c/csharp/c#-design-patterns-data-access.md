@@ -17,4 +17,5 @@ Also, a Repository is generally a narrower interface. It should be simply a coll
 It does seem common to see implementations called a Repository that are really more of a DAO, and hence I think there is some confusion about the difference between them.
 
 
-
+DDD: 
+http://domaindrivendesign.org/resources/what_is_ddd
