@@ -19,3 +19,14 @@ It does seem common to see implementations called a Repository that are really m
 
 DDD: 
 http://domaindrivendesign.org/resources/what_is_ddd
+
+
+Micro ORM Service:
+http://www.emadmokhtar.com/2011/11/micro-orms-war-dapper-vs-massive-vs-petapoco/
+http://www.toptensoftware.com/petapoco/
+http://stackoverflow.com/questions/16830437/handling-transaction-data-at-asp-net-web-api
+https://github.com/FransBouma/Massive
+http://theothersideofcode.com/lightweight-data-access-in-dot-net-massive
+https://dzone.com/articles/how-identify-and-resilve-n1
+http://www.toptensoftware.com/Articles/115/PetaPoco-Mapping-One-to-Many-and-Many-to-One-Relationships
+
